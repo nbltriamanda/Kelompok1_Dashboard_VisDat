@@ -8,7 +8,7 @@
 # Kelompok1_Dashboard_VisDat
 
 
-[Tentang](#bar_chart-tentang) • [Deskripsi Project](#film_projector-deskripsi-project) • [Dataset](#pencil-dataset) • [Visualisasi Data](#chart_with_upwards_trend-visualisasi-data) • [Pengembang](#woman_technologist-pengembang)
+[Deskripsi Dashboard](#film_projector-deskripsi-project) • [Dataset](#pencil-dataset) • [Metode dan Visualisasi Data](#chart_with_upwards_trend-visualisasi-data) • [Tim Pengembang](#woman_technologist-pengembang)
 
 </div>
 
