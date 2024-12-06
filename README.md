@@ -1,4 +1,12 @@
+<p align="center" width="100%">
+    <img width="100%" src="[https://github.com/nbltriamanda/Kelompok1_Dashboard_VisDat/blob/main/Liburan%20Banner.png]">
+</p>
+
+<div align="center">
+
+
 # Kelompok1_Dashboard_VisDat
+
 
 [Tentang](#bar_chart-tentang) • [Deskripsi Project](#film_projector-deskripsi-project) • [Dataset](#pencil-dataset) • [Visualisasi Data](#chart_with_upwards_trend-visualisasi-data) • [Pengembang](#woman_technologist-pengembang)
 
