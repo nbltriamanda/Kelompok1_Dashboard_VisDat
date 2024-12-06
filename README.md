@@ -8,7 +8,7 @@
 # Dashboard Preferensi Liburan Pengunungan VS Pantai
 
 
-[Deskripsi Dashboard](#film_projector-deskripsi-project) • [Dataset](#pencil-dataset) • [Metode dan Visualisasi Data](#chart_with_upwards_trend-visualisasi-data) • [Tim Pengembang](#woman_technologist-pengembang)
+[Deskripsi Dashboard](#film_projector-deskripsi-project) • [Tools](#tools-dataset)• [Dataset](#pencil-dataset) • [Metode dan Visualisasi Data](#chart_with_upwards_trend-visualisasi-data) • [Tim Pengembang](#woman_technologist-pengembang)
 
 </div>
 
@@ -28,7 +28,7 @@ Aplikasi ini bertujuan untuk menganalisis preferensi liburan pengguna menggunaka
 
 Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti anggaran, cuaca, dan aktivitas favorit, serta menganalisis tren yang muncul. Aplikasi ini membantu pengguna memahami faktor-faktor yang memengaruhi keputusan liburan dan memberikan rekomendasi yang lebih akurat berdasarkan preferensi mereka.
 
-**Tools yang digunakan dalam membangun Dashboard:**
+## 🧰: **Tools Dashboard **
 - 📈 **R Shiny** untuk visualisasi data interaktif.
 - 📊 **R Studio** untuk analisis data.
 - 🔍 Analisis Klasifikasi faktor yang mempengaruhi preferensi liburan seseorang yaitu Gunung atau Pantai
