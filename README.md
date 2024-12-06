@@ -8,7 +8,7 @@
 # Dashboard Preferensi Liburan Pengunungan VS Pantai
 
 
-[Deskripsi Dashboard](#film_projector-deskripsi-project) • [Tools](#tools-dataset) • [Dataset](#pencil-dataset) • [Metode dan Visualisasi Data](#chart_with_upwards_trend-visualisasi-data) • [Tim Pengembang](#woman_technologist-pengembang)
+[Deskripsi Dashboard](#film_projector-deskripsi-project) • [Tools](#tools-dataset) • [Dataset](#pencil-dataset) • [Metode Analisis](#chart_with_upwards_trend-visualisasi-data) • [Visualisasi Data](#chart_with_upwards_trend-visualisasi-data) • [Tim Pengembang](#woman_technologist-pengembang)
 
 </div>
 
@@ -23,9 +23,6 @@ Aplikasi ini bertujuan untuk menganalisis preferensi liburan pengguna menggunaka
 - **Regresi Logistik:** Model regresi logistik untuk memahami faktor yang mempengaruhi preferensi liburan (baik dari dataset dashboard maupun data yang diunggah pengguna).
 
 Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti anggaran, cuaca, dan aktivitas favorit, serta menganalisis tren yang muncul. Aplikasi ini membantu pengguna memahami faktor-faktor yang memengaruhi keputusan liburan dan memberikan rekomendasi yang lebih akurat berdasarkan preferensi mereka.
-
-🎯 **Dashboard Interaktif dapat diakses pada tautan ini!**  
-[🌐 Visualisasi Dashboard - ShinyApps](https://srgr.shinyapps.io/EVD1/)
 
 ## 🧰 **Tools yang digunakan**
 - 📈 **R Shiny** untuk visualisasi data interaktif.
@@ -57,6 +54,7 @@ Dataset ini memiliki Jumlah Data (Baris) sebanyak 52444 dengan Jumlah Variabel s
 | Musim Favorit            | Kategorik (musim panas, musim dingin, musim semi, gugur)     | Musim yang disukai untuk liburan                          |
 | Pemilik Hewan Peliharaan | 0 = Tidak, 1 = Ya                                            | Apakah individu memiliki hewan peliharaan.                |
 | Sensitivitas Lingkungan  | 0 = Tidak, 1 = Ya                                            | Apakah individu memiliki kekhawatiran terhadap lingkungan |
+
 ## 🔍 **Metode Analisis**
 ### 📈 **Regresi Logistik**
 Regresi logistik adalah metode regresi yang digunakan untuk memodelkan hubungan antara satu variabel dependen kategorikal dengan satu atau lebih variabel independen. Biasanya, variabel dependen yang digunakan dalam regresi logistik adalah variabel biner (dua kategori), seperti ya/tidak, sukses/gagal, atau lainnya
@@ -77,10 +75,14 @@ Untuk mengubah koefisien menjadi odds ratio, gunakan rumus: OR = exp(b1), OR = e
 Variabel dependen harus bersifat kategorikal (misalnya, dua kelas: 0 atau 1).
 Tidak boleh ada multikolinearitas antara variabel independen. Artinya, variabel independen seharusnya tidak saling berkorelasi tinggi.
 
+## 💹 **Visualisasi hasil Analisis**
+Visualisasi hasil analisis data ditampilkan dalam bentuk dashboard interaktif yang dapat diakses pada tautan ini!
+[🌐 Visualisasi Dashboard - ShinyApps](https://srgr.shinyapps.io/EVD1/)
+
 ---
 
-## 🫂 : Tim Pengembang
-💡 **Kelompok 1** terdiri dari:
+## 💡 Tim Pengembang
+**Kelompok 1** terdiri dari:
 
 - **👨 [Indra Rivaldi Siregar]([https://github.com/insersir])**  
 
