@@ -51,7 +51,20 @@ Dataset ini diambil dari Kaggle, tersedia di tautan berikut:
 
 ### 🔍 **Variabel dalam Dataset**
 
-
+|       Nama Variabel      |                       Tipe Data                              |                       Keterangan                          |
+|:-------------------------|:-------------------------------------------------------------|:----------------------------------------------------------|
+| Jenis Kelamin            | Kategorik (laki-laki, perempuan, non-biner)                  | Identitas gender individu                                 |
+| Penghasilan              | Numerik                                                      | Pendapatan tahunan individu.                              |
+| Pendidikan               | Kategorik (SMA, sarjana, master, doktor)                     | Tingkat pendidikan tertinggi yang dicapai                 |
+| Frekuensi Liburan        | Numerik                                                      | Jumlah liburan yang diambil per tahun                     |
+| Aktivitas yang Disukai   | Kategorik (hiking, berenang, ski, berjemur)                  | Aktivitas yang disukai individu saat liburan              |
+| Anggaran Liburan         | Numerik                                                      | Anggaran yang dialokasikan untuk liburan                  |
+| Lokasi                   | Kategorik (perkotaan, pinggiran kota, pedesaan)              | Jenis tempat tinggal                                      |
+| Jarak ke Pegunungan      | Numerik                                                      | Jarak dari pegunungan terdekat (dalam mil)                |
+| Jarak ke Pantai          | Numerik                                                      | Jarak dari pantai terdekat (dalam mil)                    |
+| Musim Favorit            | Kategorik (musim panas, musim dingin, musim semi, gugur)     | Musim yang disukai untuk liburan                          |
+| Pemilik Hewan Peliharaan | 0 = Tidak, 1 = Ya                                            | Apakah individu memiliki hewan peliharaan.                |
+| Sensitivitas Lingkungan  | 0 = Tidak, 1 = Ya                                            | Apakah individu memiliki kekhawatiran terhadap lingkungan |
 
 🎯 **Dashboard Interaktif dapat diakses pada tautan ini!**  
 [🌐 Visualisasi Dashboard - ShinyApps](https://srgr.shinyapps.io/EVD1/)
