@@ -5,7 +5,7 @@
 <div align="center">
 
 
-# Kelompok1_Dashboard_VisDat
+# Dashboard Preferensi Liburan Pengunungan VS Pantai
 
 
 [Deskripsi Dashboard](#film_projector-deskripsi-project) • [Dataset](#pencil-dataset) • [Metode dan Visualisasi Data](#chart_with_upwards_trend-visualisasi-data) • [Tim Pengembang](#woman_technologist-pengembang)
@@ -14,9 +14,12 @@
 
 ---
 
-# :bar_chart: Tentang
-## Aplikasi Dashboard Preferensi Liburan
+## :film_projector: **Deskripsi Dashboard**
 
+<p align="center">
+  <img width="80%" src="">
+    
+</p>
 Aplikasi ini bertujuan untuk menganalisis preferensi liburan pengguna menggunakan teknik statistik canggih, termasuk regresi logistik, analisis korelasi, ANOVA, dan uji chi-square. Dashboard ini fokus pada perbandingan preferensi liburan antara pantai dan pegunungan, serta menggali faktor-faktor yang mempengaruhi pilihan tersebut.
 
 - **Overview:** Gambaran umum dari data liburan.
@@ -24,15 +27,6 @@ Aplikasi ini bertujuan untuk menganalisis preferensi liburan pengguna menggunaka
 - **Regresi Logistik:** Model regresi logistik untuk memahami faktor yang mempengaruhi preferensi liburan (baik dari dataset dashboard maupun data yang diunggah pengguna).
 
 Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti anggaran, cuaca, dan aktivitas favorit, serta menganalisis tren yang muncul. Aplikasi ini membantu pengguna memahami faktor-faktor yang memengaruhi keputusan liburan dan memberikan rekomendasi yang lebih akurat berdasarkan preferensi mereka.
-
-
-=---
-
-## :film_projector: **Deskripsi Project**
-
-<p align="center">
-  <img width="80%" src="">
-</p>
 
 **Tools yang digunakan dalam membangun Dashboard:**
 - 📈 **R Shiny** untuk visualisasi data interaktif.
