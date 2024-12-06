@@ -16,10 +16,6 @@
 
 ## :film_projector: **Deskripsi Dashboard**
 
-<p align="center">
-  <img width="80%" src="">
-    
-</p>
 Aplikasi ini bertujuan untuk menganalisis preferensi liburan pengguna menggunakan teknik statistik canggih, termasuk regresi logistik, analisis korelasi, ANOVA, dan uji chi-square. Dashboard ini fokus pada perbandingan preferensi liburan antara pantai dan pegunungan, serta menggali faktor-faktor yang mempengaruhi pilihan tersebut.
 
 - **Overview:** Gambaran umum dari data liburan.
@@ -34,11 +30,6 @@ Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti an
 - 🔍 Klasifikasi Preferensi liburan seseorang antara Gunung dan Pantai berdasarkan karakteristiknya
 
 ## 📑 **Dataset**
-
-<p align="center">
-  <img width="80%" src="">
-</p>
-
 ### 📋 **Tentang Dataset**
 Dataset ini digunakan untuk menggali preferensi publik antara dua jenis liburan: pegunungan dan pantai. Melalui analisis mendalam terhadap data demografi dan gaya hidup, pengguna dapat menemukan pola unik yang memengaruhi pilihan liburan.
 
@@ -63,6 +54,28 @@ Dataset ini memiliki Jumlah Data (Baris) sebanyak 52444 dengan Jumlah Variabel s
 | Musim Favorit            | Kategorik (musim panas, musim dingin, musim semi, gugur)     | Musim yang disukai untuk liburan                          |
 | Pemilik Hewan Peliharaan | 0 = Tidak, 1 = Ya                                            | Apakah individu memiliki hewan peliharaan.                |
 | Sensitivitas Lingkungan  | 0 = Tidak, 1 = Ya                                            | Apakah individu memiliki kekhawatiran terhadap lingkungan |
+## 🔍 **Metode Analisis**
+### 📈 **Regresi Logistik**
+Regresi logistik adalah metode regresi yang digunakan untuk memodelkan hubungan antara satu variabel dependen kategorikal dengan satu atau lebih variabel independen. Biasanya, variabel dependen yang digunakan dalam regresi logistik adalah variabel biner (dua kategori), seperti ya/tidak, sukses/gagal, atau lainnya
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/nbltriamanda/Kelompok1_Dashboard_VisDat/blob/main/LogReg_1.png">
+</p>
+
+
+    
+**1. Fungsi Logistik (Sigmoid)**
+Regresi logistik menggunakan fungsi logistik atau sigmoid, yang mengubah output linear menjadi probabilitas dalam rentang antara 0 dan 1. Dalam regresi logistik, fungsi ini membentuk kurva S dan menentukan nilai ambang batas (threshold) untuk memutuskan probabilitas 0 atau 1. Nilai di atas ambang batas cenderung ke 1, sementara nilai di bawah ambang batas cenderung ke 0.
+
+**2. Model Regresi Logistik**
+Dalam regresi logistik, koefisien model menggambarkan perubahan pada log-odds untuk setiap unit perubahan pada prediktor. Jika koefisien positif, maka odds (kemungkinan) suatu peristiwa terjadi akan meningkat dengan bertambahnya nilai prediktor. Sebaliknya, koefisien negatif menunjukkan bahwa odds suatu peristiwa terjadi akan berkurang.
+Koefisien dalam model regresi logistik dapat diubah menjadi odds-ratio (OR) dengan menghitung exp(koefisien).
+Persamaan log-odds regresi logistik: log(P(Y=1|X) / (1 - P(Y=1|X))) = b0 + b1*X1 + b2*X2 + ... + bn*Xn
+Untuk mengubah koefisien menjadi odds ratio, gunakan rumus: OR = exp(b1), OR = exp(b2), ... , OR = exp(bn)
+
+**3. Asumsi Regresi Logistik**
+Variabel dependen harus bersifat kategorikal (misalnya, dua kelas: 0 atau 1).
+Tidak boleh ada multikolinearitas antara variabel independen. Artinya, variabel independen seharusnya tidak saling berkorelasi tinggi.
+
 
 🎯 **Dashboard Interaktif dapat diakses pada tautan ini!**  
 [🌐 Visualisasi Dashboard - ShinyApps](https://srgr.shinyapps.io/EVD1/)
