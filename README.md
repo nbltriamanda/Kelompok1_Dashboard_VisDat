@@ -24,6 +24,9 @@ Aplikasi ini bertujuan untuk menganalisis preferensi liburan pengguna menggunaka
 
 Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti anggaran, cuaca, dan aktivitas favorit, serta menganalisis tren yang muncul. Aplikasi ini membantu pengguna memahami faktor-faktor yang memengaruhi keputusan liburan dan memberikan rekomendasi yang lebih akurat berdasarkan preferensi mereka.
 
+🎯 **Dashboard Interaktif dapat diakses pada tautan ini!**  
+[🌐 Visualisasi Dashboard - ShinyApps](https://srgr.shinyapps.io/EVD1/)
+
 ## 🧰 **Tools yang digunakan**
 - 📈 **R Shiny** untuk visualisasi data interaktif.
 - 📊 **R Studio** untuk analisis data.
@@ -60,8 +63,6 @@ Regresi logistik adalah metode regresi yang digunakan untuk memodelkan hubungan 
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/nbltriamanda/Kelompok1_Dashboard_VisDat/blob/main/LogReg_1.png">
 </p>
-
-
     
 **1. Fungsi Logistik (Sigmoid)**
 Regresi logistik menggunakan fungsi logistik atau sigmoid, yang mengubah output linear menjadi probabilitas dalam rentang antara 0 dan 1. Dalam regresi logistik, fungsi ini membentuk kurva S dan menentukan nilai ambang batas (threshold) untuk memutuskan probabilitas 0 atau 1. Nilai di atas ambang batas cenderung ke 1, sementara nilai di bawah ambang batas cenderung ke 0.
@@ -76,17 +77,13 @@ Untuk mengubah koefisien menjadi odds ratio, gunakan rumus: OR = exp(b1), OR = e
 Variabel dependen harus bersifat kategorikal (misalnya, dua kelas: 0 atau 1).
 Tidak boleh ada multikolinearitas antara variabel independen. Artinya, variabel independen seharusnya tidak saling berkorelasi tinggi.
 
-
-🎯 **Dashboard Interaktif dapat diakses pada tautan ini!**  
-[🌐 Visualisasi Dashboard - ShinyApps](https://srgr.shinyapps.io/EVD1/)
-
 ---
 
-## :smiley_cat: Tim Pengembang
+## 🫂 : Tim Pengembang
 💡 **Kelompok 1** terdiri dari:
 
-- **👨‍💻 [Indra Rivaldi Siregar]([https://github.com/insersir])**  
+- **👨 [Indra Rivaldi Siregar]([https://github.com/insersir])**  
 
-- **👩‍💻 [Erdanisa Aghnia Ilmani ]([https://github.com/erdanisaaghnia])**  
+- **🧕 [Erdanisa Aghnia Ilmani ]([https://github.com/erdanisaaghnia])**  
 
-- **👩‍💻 [Nabila Tri Amanda]([https://github.com/nbltriamanda])**  
+- **🧕🏻 [Nabila Tri Amanda]([https://github.com/nbltriamanda])**  
