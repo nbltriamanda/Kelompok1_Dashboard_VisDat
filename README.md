@@ -15,14 +15,16 @@
 ---
 
 # :bar_chart: Tentang
-## Aplikasi Dashboard Dashboard Preferensi Liburan
+## Aplikasi Dashboard Preferensi Liburan
+
 Aplikasi ini bertujuan untuk menganalisis preferensi liburan pengguna menggunakan teknik statistik canggih, termasuk regresi logistik, analisis korelasi, ANOVA, dan uji chi-square. Dashboard ini fokus pada perbandingan preferensi liburan antara pantai dan pegunungan, serta menggali faktor-faktor yang mempengaruhi pilihan tersebut.
 
-Overview: Gambaran umum dari data liburan.
-Exploratory Data Analysis (EDA): Menyediakan berbagai visualisasi untuk mengeksplorasi hubungan antar variabel.
-Regresi Logistik: Model regresi logistik untuk memahami faktor yang mempengaruhi preferensi liburan (baik dari dataset dashboard maupun data yang diunggah pengguna).
+- **Overview:** Gambaran umum dari data liburan.
+- **Exploratory Data Analysis (EDA):** Menyediakan berbagai visualisasi untuk mengeksplorasi hubungan antar variabel.
+- **Regresi Logistik:** Model regresi logistik untuk memahami faktor yang mempengaruhi preferensi liburan (baik dari dataset dashboard maupun data yang diunggah pengguna).
 
 Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti anggaran, cuaca, dan aktivitas favorit, serta menganalisis tren yang muncul. Aplikasi ini membantu pengguna memahami faktor-faktor yang memengaruhi keputusan liburan dan memberikan rekomendasi yang lebih akurat berdasarkan preferensi mereka.
+
 
 =---
 
