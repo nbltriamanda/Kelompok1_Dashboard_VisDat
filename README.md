@@ -28,12 +28,12 @@ Aplikasi ini bertujuan untuk menganalisis preferensi liburan pengguna menggunaka
 
 Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti anggaran, cuaca, dan aktivitas favorit, serta menganalisis tren yang muncul. Aplikasi ini membantu pengguna memahami faktor-faktor yang memengaruhi keputusan liburan dan memberikan rekomendasi yang lebih akurat berdasarkan preferensi mereka.
 
-## 🧰: **Tools yang digunakan**
+## 🧰 **Tools yang digunakan**
 - 📈 **R Shiny** untuk visualisasi data interaktif.
 - 📊 **R Studio** untuk analisis data.
 - 🔍 Klasifikasi Preferensi liburan seseorang antara Gunung dan Pantai berdasarkan karakteristiknya
 
-## 📑 : **Dataset**
+## 📑 **Dataset**
 
 <p align="center">
   <img width="80%" src="">
