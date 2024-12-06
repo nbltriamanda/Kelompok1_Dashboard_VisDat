@@ -31,7 +31,7 @@ Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti an
 ## 🧰: **Tools yang digunakan**
 - 📈 **R Shiny** untuk visualisasi data interaktif.
 - 📊 **R Studio** untuk analisis data.
-- 🔍 Analisis Klasifikasi faktor yang mempengaruhi preferensi liburan seseorang yaitu Gunung atau Pantai
+- 🔍 Klasifikasi Preferensi liburan seseorang antara Gunung dan Pantai berdasarkan karakteristiknya
 
 ## 📑 : **Dataset**
 
@@ -39,18 +39,15 @@ Dengan visualisasi interaktif, pengguna dapat mengeksplorasi variabel seperti an
   <img width="80%" src="">
 </p>
 
-
-### 📋 **Deskripsi Awal Dataset**
-
-Dataset
+### 📋 **Tentang Dataset**
+Dataset ini digunakan untuk menggali preferensi publik antara dua jenis liburan: pegunungan dan pantai. Melalui analisis mendalam terhadap data demografi dan gaya hidup, pengguna dapat menemukan pola unik yang memengaruhi pilihan liburan.
 
 📂 **Sumber Dataset**:  
 Dataset ini diambil dari Kaggle, tersedia di tautan berikut:  
 [ Mountains Vs Beach Preference on Kaggle](https://www.kaggle.com/datasets/jahnavipaliwal/mountains-vs-beaches-preference)
 
-
-
-### 🔍 **Variabel dalam Dataset**
+### 🔢 **Variabel dalam Dataset**
+Dataset ini memiliki Jumlah Data (Baris) sebanyak 52444 dengan Jumlah Variabel sebanyak 13 variabel yang ditampilkan pada tabel berikut!
 
 |       Nama Variabel      |                       Tipe Data                              |                       Keterangan                          |
 |:-------------------------|:-------------------------------------------------------------|:----------------------------------------------------------|
